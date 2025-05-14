@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { RevelOnScroll } from "../RevelOnScroll";
 
 export const About = () => {
   const frontedSkils = ["React", "TypeScript", "Tailwinds", "HTML", "CSS"];
@@ -9,6 +10,7 @@ export const About = () => {
       id="about"
       className="min-h-screen flex items-center justify-center py-20 "
     >
+      <RevelOnScroll>
       <div className="max-w-3xl max-auto px-4">
         <h2 className="text-3xl font-semibold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent  text-center">
           {""}
@@ -74,6 +76,7 @@ export const About = () => {
 
         </div>
       </div>
+      </RevelOnScroll>
     </section>
   );
 };
