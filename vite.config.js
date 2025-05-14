@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base:"Rreact_portfolio"
 })
