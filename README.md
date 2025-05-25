@@ -1,12 +1,62 @@
-# React + Vite
+# 💼 Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
+[ here is example of Portfolio](https://saugat1070.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+portfolio/
+├── public/                        # Static files (e.g. images, icons)
+├── src/                           
+│   ├── assets/                    # Images, logos, etc.
+│   ├── Components/
+│   │   └── sections/              
+│   │       ├── About.jsx
+│   │       ├── Contact.jsx
+│   │       ├── Home.jsx
+│   │       ├── Projects.jsx
+│   │       ├── LoadingScreen.jsx
+│   │       ├── MobileMenu.jsx
+│   │       ├── NavBar.jsx
+│   │       └── RevelOnScroll.jsx
+│   ├── App.jsx                    # Root component
+│   ├── App.css                    # Global CSS
+│   ├── index.css                  # Additional styles
+│   └── main.jsx                  
+├── .env                           # Environment variables
+├── .gitignore                    # Git ignore rules
+├── eslint.config.js             
+├── index.html                    
+├── package.json                  # Dependencies and scripts
+├── package-lock.json             # Lockfile for npm
+├── README.md                     # Project documentation
+└── vite.config.js                # Vite build configuration
+
+```
+
+
+---
+
+## Technologies Used
+
+- ⚛React
+-  Vite
+-  CSS / Tailwind 
+-  npm
+
+---
+
+##  Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   npm install
+   npm run dev
+```
